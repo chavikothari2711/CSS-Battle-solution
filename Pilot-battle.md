@@ -58,3 +58,46 @@
 </style>
 
 ```
+
+## [03 Push Button](https://cssbattle.dev/play/3)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/9e65ad70-65eb-43ad-81bc-63876db1205e)
+
+```html
+
+<div class="rectange">
+  <div class="circle"></div>
+  <div class="circle-2"></div>
+</div>
+
+<style>
+  body{
+    display: grid;
+    place-items: center;
+    background:#6592CF;
+  }
+  .rectange {
+    display:grid;
+    place-items:center;
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    background: #eeb850;
+    border-radius: 50%;
+    border: solid 50px #243d83;
+    z-index: 1;
+  }
+  .circle-2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    border: solid 100px #6592cf;
+  }
+</style>
+
+```
