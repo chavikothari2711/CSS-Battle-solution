@@ -19,7 +19,7 @@
 </style>
 ```
 
-## [02 Simply Square](https://cssbattle.dev/play/1)
+## [02 Carrom](https://cssbattle.dev/play/2)
 ![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/310b49b5-5958-497a-8035-a9139ff998a1)
 
 ```html
