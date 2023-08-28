@@ -101,3 +101,41 @@
 </style>
 
 ```
+
+## [04 Ups and Downs](https://cssbattle.dev/play/4)
+
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/96715b53-fa85-4ca1-bd1d-ce16be3adc77)
+
+```html
+
+<div class="top-middle"></div>
+<div class="bottom-left"></div>
+<div class="bottom-right"></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div{
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position:absolute;
+  }
+  .top-middle{
+    top:50px;
+    left:150px;
+    border-radius: 50px 50px 0px 0px;
+  }
+  .bottom-left{
+    bottom:50px;
+    left:50px;
+    border-radius: 0px 0px 50px 50px;
+  }
+  .bottom-right{
+    bottom:50px;
+    right:50px;
+    border-radius: 0px 0px 50px 50px;
+  }
+</style>
+
+```
