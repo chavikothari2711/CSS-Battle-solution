@@ -322,3 +322,207 @@
 </style>
 
 ```
+
+## [09 Tesseract](https://cssbattle.dev/play/9)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c90b8e7b-36cd-4b6f-867d-2e4738f644c8)
+```html
+
+<div class="rectangle">
+  <div class="square"></div>
+  <div class="circle"></div>
+</div>
+<style>
+  body{
+    background:#222730;
+    display:grid;
+    place-items:center;
+  }
+  *{
+    margin:0;
+  }
+  .square{
+    box-sizing:border-box;
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#4CAAB3;
+    transform: rotate(45deg);
+    border: 50px solid #222730;
+  }
+  .rectangle{
+    display:grid;
+    place-items:center;
+    width: 100%;
+    height: 150px;
+    background: #4CAAB3;
+  }
+  .circle{
+    position:absolute;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    background:#393E46;
+  }
+</style>
+
+```
+## [10 Cloaked Spirits](https://cssbattle.dev/play/10)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/11a2a360-662d-4f38-96c3-3e7eec48decd)
+
+```html
+
+<div class="stair"></div>
+<div class="stair"></div>
+<div class="stair"></div>
+<div class="circle three"></div>
+<div class="circle two"></div>
+<div class="circle one"></div>
+<style>
+  body{
+    background:#62306D;
+  }
+.stair{
+  position:absolute;
+  bottom:0px;
+  left:50px;
+  width:100px;
+  height:100px;
+  background:#F7EC7D;
+}
+.stair:nth-child(2){
+   left:150px;
+  height:200px;
+}
+.stair:nth-child(3){
+   left:250px;
+}
+.circle{
+  box-sizing:border-box;
+  width:100px;
+  height:100px;
+  background:#E38F66;
+  border:20px solid #AA445F;
+  border-radius:50%;
+  position:absolute;
+  bottom:50px;
+  left:50px;
+}
+.two{
+  bottom:150px;
+  left:150px;
+  background:#AA445F;
+  border:20px solid #E38F66;
+}
+.three{
+   left:250px; 
+  }
+</style>
+
+```
+
+## [11 Eye of Sauron](https://cssbattle.dev/play/11)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/64e6f076-4762-47a3-92f8-2208544c23b0)
+
+```html
+
+<div class="disc">
+  <div class="circle"></div>
+</div>
+<div class="half"></div>
+<div class="half right"></div>
+<style>
+  body{
+    display:grid;
+    place-items:center;
+    background:#191210;
+  }
+  .circle{
+    width:50px;
+    height:50px;
+    background:#84271C;
+    border-radius:50%;
+  }
+  .disc{
+    display:grid;
+    place-items:center;
+    width:100px;
+    height:100px;
+    border: 20.5px solid #ECA03D;
+    border-radius:50%;
+  }
+  .half{
+    position: absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border: 20px solid;
+    left:50px;
+    z-index:-1;
+    transform:rotate(45deg);
+    border-color:  #191210 #ECA03D #ECA03D #191210;
+  }
+  .right{
+    left:250px;
+    border-color: #ECA03D #191210 #191210 #ECA03D ;
+  }  
+</style>
+
+```
+
+## [12 wiggly Moustache](https://cssbattle.dev/play/12)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c050e61e-7740-4778-aaa2-93313fc56757)
+
+```html
+
+<div class="disc"></div>
+<div class="disc"></div>
+<div class="disc"></div>
+<style>
+  body {
+    background: #f5d6b4;
+    position: relative;
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .disc {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    border: solid 20px #d86f45;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .disc:nth-child(1) {
+    left: 70px;
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
+  .disc:nth-child(2) {
+    left: 150px;
+  }
+  .disc:nth-child(3) {
+    left: 230px;
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
+  body::after,
+  body::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #d86f45;
+    position: absolute;
+    border-radius: 50%;
+    left: 70px;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+  body::before {
+    left: 310px;
+  }
+</style>
+
+```
