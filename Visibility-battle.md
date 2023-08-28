@@ -73,4 +73,46 @@
   }
 </style>
 
-``
+```
+
+## [03 Overlap](https://cssbattle.dev/play/15)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/8997448f-79aa-4960-b32d-68adef8c554e)
+
+```html
+
+<div class="circle-1"></div>
+<div class="leaf"></div>
+<div class="circle-2"></div>
+<style>
+  body{
+    background: #09042A;
+    justify-content:center;
+    align-items:center;
+  }
+  .circle-1,.circle-2{
+    position:absolute;
+    background:#7B3F61;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    top:75px;
+    left:75px;
+  }
+  .circle-2{
+    left:175px;
+    background:#E78481;
+  }
+  .leaf{
+    position:absolute;
+    z-index:10;
+    top:110px;
+    left:160px;
+    border-radius:0 95%;
+    transform:rotate(45deg);
+    background:#09042A;
+    width:80px;
+    height:80px;
+  }
+</style>
+
+```
