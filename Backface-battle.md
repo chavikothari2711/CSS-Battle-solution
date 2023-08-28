@@ -204,3 +204,53 @@
 </style>
 
 ```
+
+## [06 Not simply square](https://cssbattle.dev/play/38)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/2e3c1be1-253e-4365-96a9-af4aab53591e)
+
+```html
+
+<div class="big-square"></div>
+<div class="square"></div>
+<div class="square one"></div>
+<div class="square-two"></div>
+<div class="square-two one"></div>
+<style>
+  body{
+    margin:0;
+    background: #293462;
+  }
+  .big-square{
+    width:200px;
+    height:200px;
+    background:#FFF1C1;
+  }
+  .square{
+    position:absolute;
+    top:0px;
+    width:100px;
+    height:150px;
+    left:200px;
+    background:#FE5F55;
+  }
+  .square.one{
+    height:50px;
+    top:150px;
+    background:#A64942;
+  }
+  .square-two{
+    position:absolute;
+    bottom:0px;
+    width:150px;
+    height:100px;
+    left:0px;
+    background:#FE5F55;
+  }
+  .square-two.one{
+    width:50px;
+    left:150px;
+    background:#A64942;
+  }
+</style>
+
+```
