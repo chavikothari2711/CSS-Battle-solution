@@ -179,3 +179,178 @@
 </style>
 
 ```
+
+## [04 Blossom](https://cssbattle.dev/play/25)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/64c9ac05-79e7-4481-a0ac-5004f654ccb4)
+
+```html
+
+<div class="leaf-one one"></div>
+<div class="leaf-one two"></div>
+<div class="leaf-two one"></div>
+<div class="leaf-two two"></div>
+<style>
+  body{
+    background: #998235;
+  }
+  .leaf-one{
+    height:100px;
+    width:80px;
+    background:#1A4341;
+    position:absolute;
+    border-radius: 0 50px 0 50px;
+  }
+  .leaf-two{
+    height:60px;
+    width:80px;
+    background:#F3AC3C;
+    position:absolute;
+    border-radius: 0 50px 0 50px;
+  }
+  .leaf-one.one{
+    top:60px;
+    left:110px;
+  }
+  .leaf-one.two{
+    transform:rotateY(180deg);
+    bottom:60px;
+    right:110px;
+  }
+  .leaf-two.one{
+    bottom:60px;
+    left:110px;
+  }
+  .leaf-two.two{
+    transform:rotateY(180deg);
+    top:60px;
+    right:110px;
+  }
+</style>
+
+```
+
+## [05 Smiley](https://cssbattle.dev/play/26)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/80967c8c-70e5-4de3-b93c-adeece578652)
+
+```html
+
+<div class="disc"></div>
+<div class="disc"></div>
+<div class="disc"></div>
+<style>
+   body{
+    background: #6592CF;
+  }
+  .disc{
+    width:80px;
+    height:80px;
+    border: 20px solid;
+    border-radius:50%;
+    transform:rotate(-45deg);
+    border-color:#060F55 #060F55 #6592CF #6592CF;
+    position:absolute;
+    top:40px;
+    left:40px
+  }
+  .disc:nth-child(2){
+    left:240px;
+  }
+  .disc:nth-child(3){
+    transform:rotate(135deg);
+    top:140px;
+    left:140px;
+  }
+</style>
+
+```
+
+## [06 Lock up](https://cssbattle.dev/play/27)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c240cbf5-074f-4173-92a8-0309b1ecc505)
+
+```html
+
+<div class="circle">
+  <div class="disc"></div>
+</div>
+
+<style>
+  body{
+    background: #E38F66;
+    display:grid;
+    place-items:center;
+  }
+  .circle{
+    width:200px;
+    height:200px;
+    background:#AA445F;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+  }
+  .disc{
+    box-sizing:border-box;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border: 30px solid;
+    transform:rotate(45deg);
+    border-color:#F7EC7D #AA445F;
+  }
+</style>
+
+```
+
+## [07 Cups & Balls](https://cssbattle.dev/play/28)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/e0d24110-84f2-41d3-95df-4719ca728f88)
+
+```html
+
+<div class="row">
+  <div class="circle green"></div>
+  <div class="shapes up yellow"></div>
+  <div class="shapes up green"></div>
+  <div class="circle yellow"></div>
+</div>
+<div class="row">
+  <div class="shapes down  yellow"></div>
+  <div class="circle green"></div>
+  <div class="circle yellow"></div>
+  <div class="shapes down green"></div>
+</div>
+<style>
+  body{
+    background: #1A4341;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin:90px 50px;
+  }
+  .row{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+  }
+  .row div{
+      width:50px;
+      height:50px;
+  }
+  .green{
+    background:#998235;
+  }
+  .yellow{
+    background:#F3AC3C;
+  }
+  .circle{
+    border-radius:50%;
+  }
+  .shapes{
+    border-radius: 50% 50% 0% 0%;
+  }
+  .down{
+    transform:rotate(180deg);
+  }
+</style>
+
+```
