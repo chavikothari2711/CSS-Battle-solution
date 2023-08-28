@@ -139,3 +139,186 @@
 </style>
 
 ```
+
+## [05 Acid Rain](https://cssbattle.dev/play/5)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/f13d9cb0-3fcd-41dc-82c9-32960b93b8fb)
+
+```html
+
+<div class="leaf-1"></div>
+<div class="leaf-2"></div>
+<div class="leaf-3">
+<style>
+  body{
+    background: #0B2429;
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    background:#F3AC3C;
+    position:absolute;
+  }
+  .leaf-1{
+    bottom:30px;
+    left:80px;
+    border-radius:50% 0px 50% 50%;
+  }
+  .leaf-2{
+    border-radius:50% 0px 50%;
+    left:140px;
+    top:90px;
+    background:#998235;
+    z-index:-1;
+  }
+  .leaf-3{
+    border-radius:50%;
+    right:80px;
+    top:30px;
+    z-index:-2;
+  }
+</style>
+
+```
+
+## [06 Missing Slice](https://cssbattle.dev/play/6)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/3f223ab4-a9f5-4910-abd8-1a09dfd7ddfe)
+
+```html
+
+<div class="circle">
+  <div class="quad-1"></div>
+  <div class="quad-2"></div>
+  <div class="quad-3"></div>
+</div>
+<style>
+  body {
+    background: #e3516e;
+    display: grid;
+    place-items: center;
+  }
+  .circle{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .quad-1{
+    width:100px;
+    height:100px;
+    background:#51B5A9;
+  }
+  .quad-2{
+    width:100px;
+    height:100px;
+    background:#FADE8B;
+  }
+  .quad-3{
+    width:100px;
+    height:100px;
+    background:#F7F3D7;
+  }
+</style>
+
+```
+
+## [07 Leaf-trail](https://cssbattle.dev/play/7)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c7c16f44-6dc2-450c-b71e-a0749201c631)
+
+```html
+
+<div class="leaf-1"></div>
+<div class="leaf-2"></div>
+<div class="leaf-3"></div>
+<style>
+  body{
+    background:#0B2429;
+  }
+  div {
+    position:absolute;
+    top:75px;
+    width: 150px;
+    height: 150px;
+    background: #1A4341;
+    border-radius:69% 0%;
+  }
+  .leaf-1{
+    left:75px;
+    z-index:-2;
+  }
+  .leaf-2{
+    left:125px;
+    z-index:-1;
+    background:#998235;
+  }
+  .leaf-3{
+    background:#F3AC3C;
+    right:75px;
+    z-index:1;
+  }
+</style>
+
+```
+
+## [08 Forking crazy](https://cssbattle.dev/play/8)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/fe212c7f-0592-4353-9673-7a4e1125a9fb)
+
+```html
+
+<div class="stem"></div>
+<div class="fork"></div>
+<div class="stick">
+  <div class="p"></div>
+  <div class="p"></div>
+  <div class="p"></div>
+  <div class="p"></div>
+  <div class="p"></div>
+  <div class="p"></div>
+  <div class="p"></div>
+</div>
+<style>
+  body{
+    background:#6592CF;
+  }
+  .stem,.fork,.stick{
+    position:absolute;
+    left:130px;
+  }
+  .stem{
+    background:#060F55;
+    width:20px;
+    height:100px;
+    bottom:0px;
+    z-index:-1;
+    left:190px
+  }
+  .fork{
+    background:#060F55;
+    bottom:50px;
+    width: 140px;
+    height: 100px;
+    z-index:1;
+    border-radius:0% 0% 69px 69px;
+  }
+  .stick{
+    display:flex;
+    top:50px;
+    z-index:2;
+  }
+  .p:nth-child(2n+1) {
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius: 12px 12px 0px 0px;
+  }
+  .p:nth-child(2n) {
+    width: 20px;
+    height: 110px;
+    background: #6592CF;
+    border-radius: 0px 0px 12px 12px;
+  }
+  
+</style>
+
+```
