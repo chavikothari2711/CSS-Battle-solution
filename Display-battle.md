@@ -131,3 +131,51 @@
 
 
 ```
+
+## [03 Switches](https://cssbattle.dev/play/24)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/b52371a7-dfb0-4423-adfc-560216f3a3ab)
+
+```html
+
+<div class="bar one"></div>
+<div class="bar two"></div>
+<div class="circle one"></div>
+<div class="circle two"></div>
+<style>
+  body{
+    background: #62306D;
+  }
+  .bar{
+    position:absolute;
+    width:100px;
+    height:150px;
+    background:#AA445F;
+    border-radius:50px;
+  }
+  .circle{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background:#F7EC7D;
+    border-radius:50px;
+  }
+  .bar.one{
+    top:50px;
+    left:80px
+  }
+  .bar.two{
+    background:#E38F66;
+    bottom:50px;
+    right:80px
+  }
+  .circle.one{
+    top:100px;
+    left:80px;
+  }
+  .circle.two{
+    top:100px;
+    right:80px;
+  }
+</style>
+
+```
