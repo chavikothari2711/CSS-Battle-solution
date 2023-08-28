@@ -1,3 +1,15 @@
 # 01 Simply square
-![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/2fa626fc-9e1c-48a7-af41-97e5890336f7)
-![ray-so-export](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/265856d9-5d39-4f61-9925-750e9efe756b)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/05ecb72c-feb1-4a65-9cea-cd73b27cc6e4)
+
+<div></div>
+<style>
+  *{
+    margin:0;
+   background:#5d3a3a;   
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+  }
+</style>
