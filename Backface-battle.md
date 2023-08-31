@@ -254,3 +254,126 @@
 </style>
 
 ```
+## [07 Sunset](https://cssbattle.dev/play/39)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/956ee20b-81e0-4d89-a457-756285b51196)
+
+```html
+
+<div></div>
+<style>
+  body {
+    background: radial-gradient(circle at 50% 50%, #998235 100px, #1a4341 50px);
+  }
+  div::before {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(
+      transparent 55px,
+      #1a4341 55px, #1a4341 75px,#f3ac3c 75px,
+      #f3ac3c 95px,#1a4341 95px,#1a4341 115px,
+      #f3ac3c 115px,#f3ac3c 135px,#1a4341 135px,
+      #1a4341 155px,#f3ac3c 155px,#f3ac3c 175px,
+      #1a4341 175px,#1a4341 195px,transparent 195px
+    );
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+```
+## [08 Letter B](https://cssbattle.dev/play/40)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/4d98a84c-e87c-4f27-938e-827bf3d029e0)
+
+```html
+
+<div class="circle"></div>
+<div class="rectangle"></div>
+<style>
+  body{
+    background:#6592CF;
+  }
+  .circle{
+    position:absolute;
+    top:50px;
+    left:100px;
+    box-sizing:border-box;
+    border-radius:50%;
+    border:50px solid;
+    border-color: #6592CF #243D83 #243D83;
+    transform:rotate(-45deg);
+    width: 200px;
+    height: 200px; 
+    z-index:-1;
+  }
+  .rectangle{
+    position:absolute;
+    z-index:1;
+    top:50px;
+    left:100px;
+    background:#243D83;
+    height:100px;
+    width:49.5px;
+  }
+</style>
+
+```
+
+## [09 Fox Head](https://cssbattle.dev/play/41)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/b3a3ca36-e6bf-4357-b299-ff237fb4f394)
+
+```html
+
+<div class="fox left"></div>
+<div class="fox right"></div>
+<style>
+  body{
+    background:#293462;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+  }
+  .fox {
+    background: #fe5f55;
+    width: 50px;
+    height: 140px;
+    position: relative;
+  }
+  .left {
+    border-top-right-radius: 40px;
+  }
+    .fox::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 60px;
+    background: #293462;
+    left: 15px;
+  }
+  .fox::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background: #293462;
+    bottom: 0;
+    border-top-right-radius: 50px;
+  }
+  .right::after {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 50px;
+  }
+  .right {
+    border-top-left-radius: 40px;
+  }
+  .right::before {
+    left: 5px;
+  }
+</style>
+
+```
