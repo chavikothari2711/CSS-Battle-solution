@@ -315,3 +315,39 @@
 </style>
 
 ```
+## [06 Break the Chain](https://cssbattle.dev/play/52)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/b5396e3c-9ed6-4d78-bd72-33d15a3b90dd)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background: #6592CF;
+  }
+  div{
+    width: 10px;
+    height: 45px;
+    background: #243d83;
+    position: relative;
+    top: 137px;
+    left: 37px;
+    box-shadow: 45px 0 0 0 #243d83, 90px 0 0 0 #243d83, 165px 0 0 0 #243d83, 210px
+        0 0 0 #243d83, 255px 0 0 0 #243d83, 300px 0 0 0 #243d83;
+  }
+  div::before{
+    content:"";
+    position:absolute;
+    background: #243d83;
+    z-index:-1;
+    top: -15px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    box-shadow: 0 0 0 10px #eeb850, 45px 0 0 0 #243d83, 45px -10px 0 20px #eeb850, 90px 0 0 0 #243d83, 90px 0 0 10px #eeb850, 165px 0 0 0 #243d83, 210px 0 0 0 #243d83,255px 0 0 0 #243d83,300px 0 0 0 #243d83;
+  }
+  
+</style>
+
+```
