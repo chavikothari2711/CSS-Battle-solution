@@ -37,3 +37,24 @@ body{
 </style>
 
 ```
+
+## [5 September](https://cssbattle.dev/play/AXGhRdSBRbFCfpYCstpM)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/bce5c114-394c-4612-bb86-beeddce74268)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background:#763EDF;
+  }
+  div {
+    margin:70px 112px;
+    width: 80px;
+    height: 80px;
+    background: #6BD0FA;
+    box-shadow:-20px 100px #6BD0FA, 100px -20px #6BD0FA, 80px 80px #6BD0FA;
+  }
+</style>
+
+```
