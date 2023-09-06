@@ -58,3 +58,25 @@ body{
 </style>
 
 ```
+
+## [6 September](https://cssbattle.dev/play/tjqT6GqcgdL7fWFqYnqK)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c3366d06-71b4-4162-b78f-314792353ddb)
+
+```html
+
+<div></div>
+<style>
+ body{
+    background:radial-gradient(circle at 200px 85px, #2D696F 40px, transparent 40px ),radial-gradient(circle at 135px 150px, #2D696F 40px, transparent 40px ), radial-gradient(circle at 265px 150px, #2D696F 40px, transparent 40px ), radial-gradient(circle at 200px 215px, #2D696F 40px, #A9C482 40px );
+   display:grid;
+   place-items:center;
+  }
+  div{
+    background:#A9C482;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+  }
+</style>
+
+```
