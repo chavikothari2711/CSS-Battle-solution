@@ -80,3 +80,35 @@ body{
 </style>
 
 ```
+
+## [7 September](https://cssbattle.dev/play/VAKgNC1jyPfutbnApSg4)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/d8f8f9fe-a1bd-4e69-9b9a-b97129095a7f)
+
+```html
+
+<div></div>
+<p></p>
+<style>
+   body{
+    background:#C52184;
+    display:grid;
+    place-items:center;
+  }
+  div{
+    width:150px;
+    height:100px;
+    background:#F9B4ED;
+  }
+  p{
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#F9B4ED;
+    top:84px;
+    left:50px;
+    box-shadow:0 0 0 25px #C52184, 200px 0 0 0 #F9B4ED, 200px 0 0 25px #C52184;
+  }
+</style>
+
+```
