@@ -113,7 +113,7 @@
 
 ```
 
-# [03 Missing Piece](https://cssbattle.dev/play/163)
+## [05 Missing Piece](https://cssbattle.dev/play/163)
 ![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/37963edd-b766-4249-b5dd-b1d91c994450)
 
 ```html
@@ -142,6 +142,53 @@
     top:30px;
     left:228px;
     box-shadow:-170px -0px #FDFBF8;
+  }
+</style>
+
+```
+
+## [06 Rangoli](https://cssbattle.dev/play/164)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/46dce1c7-e41a-45a9-a6ff-425e9a01ae97)
+
+```html
+
+<p></p>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<style>
+  body{
+    background:#66284A
+  }
+  p,h1,h2,h3{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:20px solid;
+    border-color:#F0CD48 #66284A #F0CD48 #F0CD48;
+    position:absolute;
+    left:150px;
+    top:78.5px;
+    }
+  p{    
+    transform:rotate(135deg);
+    top:24px;
+  }
+  h1{
+    transform:rotate(45deg);
+    left:90px;
+    border-color:#D86F45 #66284A #D86F45 #D86F45;
+  }
+  h2{
+    transform:rotate(-45deg);
+    top:140px;
+    border-color:#FDFBF8 #66284A #FDFBF8 #FDFBF8;
+  }
+  h3{
+    transform:rotate(-135deg);
+    left:210px;
+    top:81px;
+    border-color:#D669EC transparent #D669EC #D669EC;
   }
 </style>
 
