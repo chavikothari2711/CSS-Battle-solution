@@ -112,3 +112,37 @@
 </style>
 
 ```
+
+# [03 Missing Piece](https://cssbattle.dev/play/163)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/37963edd-b766-4249-b5dd-b1d91c994450)
+
+```html
+
+<div></div><p></p><h1></h1><style>
+  body{background:#D669EC}
+  div::before{
+    content:"";
+    position:absolute;
+    background:#FDFBF8;
+    width:55px;
+    height:55px;
+    top:40px;
+    left:89.5px;
+    box-shadow:45px 45px #FDFBF8, 120px 45px #FDFBF8, 0 165px #FDFBF8, 45px 120px #FDFBF8, 165px 0 #FDFBF8;
+  }p,h1{
+    width:65px;
+    height:76px;
+    background:#FDFBF8;
+    transform:rotate(45deg);
+    position:absolute;
+    top:35px;
+    left:106px;
+  }h1{
+    transform:rotate(-45deg);
+    top:30px;
+    left:228px;
+    box-shadow:-170px -0px #FDFBF8;
+  }
+</style>
+
+```
