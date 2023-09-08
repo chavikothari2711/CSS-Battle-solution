@@ -112,3 +112,33 @@ body{
 </style>
 
 ```
+
+## [8 September](https://cssbattle.dev/play/fvELCOWUKXuKyHSsnZZk)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/8b221cca-60db-4ace-bb5c-39154c602774)
+
+```html
+
+<div></div>
+<style>
+  body{background:#8D1C24}
+  div::before,div::after{
+    content:"";
+    box-sizing:border-box;
+    position:absolute;
+    border-radius:50%;
+    width:0;
+    height:0;
+    border:70px solid;
+    border-color:#EC9140 #EC9140 transparent;
+    transform:rotate(-45deg);
+    top:65px;
+    left:80px;
+  }
+  div::after{
+    transform:rotate(135deg);
+    top:95px;
+    left:180px;
+  }
+</style>
+
+```
