@@ -24,37 +24,18 @@
 
 ```html
 
-<div class="top-left-square"></div>
-<div class="top-right-square"></div>
-<div class="bottom-left-square"></div>
-<div class="bottom-right-square"></div>
+<div></div>
 <style>
-  *{
-    margin:0;
-    background: #62374e;
-  }
+  body{background: #62374e;}
   div{
     position:absolute;
     width: 50px;
     height: 50px;
     background: #fdc57b;
-  }
-  .top-left-square{
+    top:50px;
     left:50px;
-    top:50px;    
-  }
-  .top-right-square{
-    right:50px;
-    top:50px;    
-  }
-  .bottom-left-square{
-    left:50px;
-    bottom:50px;    
-  }
-  .bottom-right-square{
-    right:50px;
-    bottom:50px;    
-  }
+    box-shadow:250px 0 #fdc57b, 0 150px #fdc57b, 250px 150px #fdc57b; 
+  } 
 </style>
 
 ```
@@ -64,39 +45,28 @@
 
 ```html
 
-<div class="rectange">
-  <div class="circle"></div>
-  <div class="circle-2"></div>
-</div>
-
+<div class="rect"><div class="cir"></div></div>
 <style>
   body{
     display: grid;
     place-items: center;
     background:#6592CF;
   }
-  .rectange {
+  .rect{
     display:grid;
     place-items:center;
     width: 300px;
     height: 150px;
     background: #243D83;
   }
-  .circle{
+  .cir{
     width: 50px;
     height: 50px;
     background: #eeb850;
     border-radius: 50%;
     border: solid 50px #243d83;
     z-index: 1;
-  }
-  .circle-2{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border-radius: 50%;
-    border: solid 100px #6592cf;
+    box-shadow:0 0 0 50px #6592CF; 
   }
 </style>
 
@@ -108,33 +78,23 @@
 
 ```html
 
-<div class="top-middle"></div>
-<div class="bottom-left"></div>
-<div class="bottom-right"></div>
+<div></div><div></div>
 <style>
-  body{
-    background:#62306D;
-  }
+  body{background:#62306D;}
   div{
     width: 100px;
     height: 100px;
     background: #F7EC7D;
     position:absolute;
-  }
-  .top-middle{
+    border-radius:50px 50px 0 0;
     top:50px;
     left:150px;
-    border-radius: 50px 50px 0px 0px;
   }
-  .bottom-left{
-    bottom:50px;
+  div:nth-child(2){
+    border-radius:0 0 50px 50px;
+    top:150px;
     left:50px;
-    border-radius: 0px 0px 50px 50px;
-  }
-  .bottom-right{
-    bottom:50px;
-    right:50px;
-    border-radius: 0px 0px 50px 50px;
+    box-shadow:200px 0 #F7EC7D
   }
 </style>
 
@@ -145,8 +105,7 @@
 
 ```html
 
-<div class="leaf-1"></div>
-<div class="leaf-2"></div>
+<div class="leaf"></div>
 <div class="leaf-3">
 <style>
   body{
@@ -158,17 +117,11 @@
     background:#F3AC3C;
     position:absolute;
   }
-  .leaf-1{
+  .leaf{
     bottom:30px;
     left:80px;
     border-radius:50% 0px 50% 50%;
-  }
-  .leaf-2{
-    border-radius:50% 0px 50%;
-    left:140px;
-    top:90px;
-    background:#998235;
-    z-index:-1;
+    box-shadow: 60px -60px #998235;
   }
   .leaf-3{
     border-radius:50%;
