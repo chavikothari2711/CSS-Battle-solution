@@ -138,39 +138,19 @@
 
 ```html
 
-<div class="circle">
-  <div class="quad-1"></div>
-  <div class="quad-2"></div>
-  <div class="quad-3"></div>
-</div>
+<div></div>
 <style>
   body {
     background: #e3516e;
     display: grid;
     place-items: center;
   }
-  .circle{
-    width:200px;
-    height:200px;
+  div{
+    box-sizing:border-box;
     border-radius:50%;
-    overflow:hidden;
-    display:flex;
-    flex-wrap:wrap;
-  }
-  .quad-1{
-    width:100px;
-    height:100px;
-    background:#51B5A9;
-  }
-  .quad-2{
-    width:100px;
-    height:100px;
-    background:#FADE8B;
-  }
-  .quad-3{
-    width:100px;
-    height:100px;
-    background:#F7F3D7;
+    border:100px solid;
+    border-color:#51B5A9 #FADE8B #E3516E #F7F3D7;
+    transform:rotate(-45deg)
   }
 </style>
 
@@ -181,9 +161,7 @@
 
 ```html
 
-<div class="leaf-1"></div>
-<div class="leaf-2"></div>
-<div class="leaf-3"></div>
+<div></div>
 <style>
   body{
     background:#0B2429;
@@ -191,24 +169,12 @@
   div {
     position:absolute;
     top:75px;
+    left:175px;
     width: 150px;
     height: 150px;
-    background: #1A4341;
-    border-radius:69% 0%;
-  }
-  .leaf-1{
-    left:75px;
-    z-index:-2;
-  }
-  .leaf-2{
-    left:125px;
-    z-index:-1;
-    background:#998235;
-  }
-  .leaf-3{
-    background:#F3AC3C;
-    right:75px;
-    z-index:1;
+    background: #F3AC3C;
+    border-radius:66% 0%;
+    box-shadow:-50px 0 #998235, -100px 0 #1A4341;
   }
 </style>
 
@@ -219,29 +185,19 @@
 
 ```html
 
-<div class="stem"></div>
-<div class="fork"></div>
-<div class="stick">
-  <div class="p"></div>
-  <div class="p"></div>
-  <div class="p"></div>
-  <div class="p"></div>
-  <div class="p"></div>
-  <div class="p"></div>
-  <div class="p"></div>
-</div>
+<div class="stem"></div><div class="fork"></div><p></p><h1></h1>
 <style>
   body{
     background:#6592CF;
   }
-  .stem,.fork,.stick{
+  .stem,.fork,h1{
     position:absolute;
     left:130px;
+    height:100px;
   }
   .stem{
     background:#060F55;
     width:20px;
-    height:100px;
     bottom:0px;
     z-index:-1;
     left:190px
@@ -250,28 +206,25 @@
     background:#060F55;
     bottom:50px;
     width: 140px;
-    height: 100px;
     z-index:1;
     border-radius:0% 0% 69px 69px;
   }
-  .stick{
-    display:flex;
-    top:50px;
+  p,h1{
+    width:20px;
+    height:100px;
+    background:#060F55;
+    border-radius:20px 20px 0 0;
+    margin:50px 122px;
+    box-shadow:40px 0 #060F55, 80px 0 #060F55, 120px 0 #060F55
+  }
+  h1{
     z-index:2;
+    transform:rotate(180deg);
+    top:10px;
+    background:#6592CF;
+    left:108px;
+    box-shadow:40px 0 #6592CF, 80px 0 #6592CF
   }
-  .p:nth-child(2n+1) {
-    width: 20px;
-    height: 110px;
-    background: #060F55;
-    border-radius: 12px 12px 0px 0px;
-  }
-  .p:nth-child(2n) {
-    width: 20px;
-    height: 110px;
-    background: #6592CF;
-    border-radius: 0px 0px 12px 12px;
-  }
-  
 </style>
 
 ```
@@ -280,41 +233,28 @@
 ![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/c90b8e7b-36cd-4b6f-867d-2e4738f644c8)
 ```html
 
-<div class="rectangle">
-  <div class="square"></div>
-  <div class="circle"></div>
-</div>
+<div></div>
 <style>
   body{
-    background:#222730;
-    display:grid;
-    place-items:center;
+    background:linear-gradient(#222730 25%,#4CAAB3 2%, #4CAAB3 75%, #222730 50%);
   }
-  *{
-    margin:0;
-  }
-  .square{
-    box-sizing:border-box;
+ div{
+   width:150px;
+   height:150px;
+   transform:rotate(45deg);
+   background:#4CAAB3;
+   margin:75px auto;
+   box-shadow:0 0 0 50px #222730;
+ }
+  div::after{
+    content:"";
     position:absolute;
-    width:250px;
-    height:250px;
-    background:#4CAAB3;
-    transform: rotate(45deg);
-    border: 50px solid #222730;
-  }
-  .rectangle{
-    display:grid;
-    place-items:center;
-    width: 100%;
-    height: 150px;
-    background: #4CAAB3;
-  }
-  .circle{
-    position:absolute;
-    border-radius:50%;
     width:50px;
     height:50px;
+    border-radius:50%;
     background:#393E46;
+    top:50px;
+    left:50px;
   }
 </style>
 
@@ -323,51 +263,24 @@
 ![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/11a2a360-662d-4f38-96c3-3e7eec48decd)
 
 ```html
-
-<div class="stair"></div>
-<div class="stair"></div>
-<div class="stair"></div>
-<div class="circle three"></div>
-<div class="circle two"></div>
-<div class="circle one"></div>
+<div></div>
+<p></p>
 <style>
-  body{
-    background:#62306D;
+  body{background:#62306D}
+  div{
+    width:100.5px;
+    height:200px;
+    background:#F7EC7D;
+    margin:100px 142px;
+    box-shadow:-100px 100px #F7EC7D, 100px 100px #F7EC7D;
   }
-.stair{
-  position:absolute;
-  bottom:0px;
-  left:50px;
-  width:100px;
-  height:100px;
-  background:#F7EC7D;
-}
-.stair:nth-child(2){
-   left:150px;
-  height:200px;
-}
-.stair:nth-child(3){
-   left:250px;
-}
-.circle{
-  box-sizing:border-box;
-  width:100px;
-  height:100px;
-  background:#E38F66;
-  border:20px solid #AA445F;
-  border-radius:50%;
-  position:absolute;
-  bottom:50px;
-  left:50px;
-}
-.two{
-  bottom:150px;
-  left:150px;
-  background:#AA445F;
-  border:20px solid #E38F66;
-}
-.three{
-   left:250px; 
+  p{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#AA445F;
+    margin:-330px auto;
+    box-shadow:0 0 0 20px #E38F66, -100px 100px #E38F66, 100px 100px #E38F66, -100px 100px 0 20px #AA445F, 100px 100px 0 20px #AA445F;
   }
 </style>
 
@@ -378,16 +291,14 @@
 
 ```html
 
-<div class="disc">
-  <div class="circle"></div>
-</div>
+<div class="disc"></div>
 <div class="half"></div>
 <div class="half right"></div>
 <style>
   body{
     display:grid;
     place-items:center;
-    background:#191210;
+    background:radial-gradient(circle,#84271C 25px, #191210 10px);
   }
   .circle{
     width:50px;
@@ -396,8 +307,6 @@
     border-radius:50%;
   }
   .disc{
-    display:grid;
-    place-items:center;
     width:100px;
     height:100px;
     border: 20.5px solid #ECA03D;
@@ -410,13 +319,12 @@
     border-radius:50%;
     border: 20px solid;
     left:50px;
-    z-index:-1;
-    transform:rotate(45deg);
-    border-color:  #191210 #ECA03D #ECA03D #191210;
+    transform:rotate(-45deg);
+    border-color:  transparent transparent #ECA03D #ECA03D;
   }
   .right{
     left:250px;
-    border-color: #ECA03D #191210 #191210 #ECA03D ;
+    transform:rotate(135deg);
   }  
 </style>
 
