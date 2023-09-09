@@ -142,3 +142,34 @@ body{
 </style>
 
 ```
+
+## [9 September](https://cssbattle.dev/play/G4otTDLJBbYCrKVVtr6q)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/ec215517-38e9-48ed-961c-b98cbcd41652)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background:#E6D9AC;
+  }
+  div {
+    width: 121px;
+    height: 150px;
+    background: #BD6C27;
+    margin:60px 117px;
+    box-shadow:30px 30px #8F2D2B;
+  }
+  div::before{
+    width:100px;
+    height:30px;
+    background:#8F2D2B;
+    content:"";
+    position:absolute;
+    top:90px;
+    left:155px;
+    box-shadow:0 60px #8F2D2B;
+  }
+</style>
+
+```
