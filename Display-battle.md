@@ -57,33 +57,19 @@
 
 ```html
 
-<div class="bar"></div>
 <div></div>
-<div class="circle-2"></div>
 <style>
   body{
-    background:#F5D6B4;
+    background:radial-gradient(circle at 230px 135px, #D86F45 50px,transparent 50px),radial-gradient(circle at 150px 165px,#D86F45 50px,#F5D6B4 50px);
   }
   div{
-    width:100px;
-    height:100px;
+    width:180px;
+    height:50px;
     border-radius:50px;
-    background: #D86F45;
-    position:absolute;
-    bottom:85px;
-    left:100px;
+    background:#D86F45;
+    margin:165px 112px;
   }
-  .bar{
-    width: 160px;
-    height: 50px;
-    left:140px;
-  }
-  .circle-2{
-    bottom:115px;
-    left:180px;
-  }
-</style>
-
+ </style>
 ```
 
 ## [03 Boxception](https://cssbattle.dev/play/23)
@@ -91,42 +77,24 @@
 
 ```html
 
-<div class="grid-1"></div>
-<div class="grid-2"></div>
-<div class="grid-3"></div>
-<div class="grid-4"></div>
+<h1></h1><h2></h2>
 <style>
-  body{
-    background: #F3AC3C;
-  }
-  .grid-1,.grid-2{
-    width: 100px;
-    height: 100px;
-    background:#1A4341;
-    position:absolute;
-    top:50px;
-  }
-  .grid-3,.grid-4{
-    width: 50px;
-    height: 50px;
-    background:#998235;
-    position:absolute;
-    top:150px;
-  }
-  .grid-1{
-    left:100px;
-  }
-  .grid-2{
-    height:200px;
-    left:200px;    
-  }
-  .grid-3{
-    left:150px;
-  }
-  .grid-4{
-    height:100px;
-    left:100px;    
-  }
+body{background:#F3AC3C;}
+h1{
+  width:100px;
+  height:100px;
+  background:#1A4341;
+  margin:50px 92px;
+  box-shadow:100px 0 #1A4341, 100px 100px #1A4341;
+}
+h2{
+  width:50px;
+  height:50px;
+  background:#998235;
+  margin:50px 92px;
+  box-shadow:50px -50px #998235, 0 -50px #998235;
+}
+</style>
 </style>
 
 
@@ -137,45 +105,27 @@
 
 ```html
 
-<div class="bar one"></div>
-<div class="bar two"></div>
-<div class="circle one"></div>
-<div class="circle two"></div>
+<div></div>
 <style>
-  body{
-    background: #62306D;
-  }
-  .bar{
-    position:absolute;
+  body{background: #62306D;}
+  div{
     width:100px;
     height:150px;
     background:#AA445F;
-    border-radius:50px;
+    border-radius:70px;
+    margin:50px 72px;
+    box-shadow:140px 50px #E38F66;
   }
-  .circle{
+  div::after{
     position:absolute;
+    content:"";
     width:100px;
     height:100px;
+    border-radius:50%;
     background:#F7EC7D;
-    border-radius:50px;
-  }
-  .bar.one{
-    top:50px;
-    left:80px
-  }
-  .bar.two{
-    background:#E38F66;
-    bottom:50px;
-    right:80px
-  }
-  .circle.one{
     top:100px;
-    left:80px;
-  }
-  .circle.two{
-    top:100px;
-    right:80px;
-  }
+    box-shadow:140px 0 #F7EC7D;
+  }  
 </style>
 
 ```
