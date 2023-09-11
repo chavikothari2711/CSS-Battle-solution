@@ -173,3 +173,77 @@ body{
 </style>
 
 ```
+
+## [10 September](https://cssbattle.dev/play/Xt3tUGrdPbbhpYBBYQPZ)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/4bfbd691-81c9-4649-ad83-a4523418d250)
+
+```html
+<div></div>
+<style>
+  body{
+    background:#FEFAE3;
+  }
+  body::before{
+    content:"";
+    position:absolute;
+    width:120px;
+    height:120px;
+    border:40px solid #B17036;
+    top:49.5px;
+    left:100px;
+  }
+  div{
+    background:#D4A469;
+    height:40px;
+    width:160px;
+    position: absolute;
+    top:49.5px;
+    left:100px;
+    box-shadow:40px 160px #D4A469;
+  }
+</style>
+
+```
+
+## [11 September](https://cssbattle.dev/play/UidFZ3Ir3BBfqdSdxbLA)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/3dbec80b-e787-4f19-a921-f5b0c3204442)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background:#B5D1FB;
+  }
+  body::before,body::after,div::before,div::after{
+    width:300px;
+    height:50px;
+    border:30px solid #230259;
+    content:"";
+    position:absolute;
+    border-radius:170px 160px 0 0;
+    border-bottom:0px;
+    top:75px;
+    left:-145px;
+  }
+  body::after,div::before{
+    transform:rotate(180deg);
+    top:145.2px;
+    border-radius:160px 170px 0 0;
+    border-color:#8819F6;
+  }
+  div::before{
+    z-index:1;
+    left:185px;
+    border-color:#230259;
+    border-radius:170px 160px 0 0;
+  }
+  div::after{
+    z-index:-1;
+    left:185px;
+    border-color:#8819F6;
+    border-radius:160px 170px 0 0;
+  }
+</style>
+
+```
