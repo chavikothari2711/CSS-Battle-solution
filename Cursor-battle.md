@@ -48,62 +48,33 @@
 
 ```html
 
-<div class="circle-corner top one"></div>
-<div class="circle-corner top two"></div>
-<div class="circle three"></div>
-<div class="circle-corner bottom one"></div>
-<div class="circle-corner bottom two"></div>
-<div class="circle"></div>
-<div class="rectangle-1"></div>
-<div class="rectangle-2"></div>
+<div></div>
 <style>
-  body{
-    background:#62306D;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .rectangle-1{
-    width: 140px;
-    height: 100px;
-    background: #F7EC7D;
-  }
-  .rectangle-2{
-    width:60px;
+  body{background:#62306D;}
+  div{
+    width:140px;
     height:100px;
-    background:#E38F66;
+    background:#F7EC7D;
+    margin:100px 92px;
+    box-shadow:60px 0 #E38F66;
   }
-  .circle-corner,.circle{
+  div::before,div::after{
     position:absolute;
-    background:#62306D;
-    border-radius:50%;
-  }
-  .circle-corner{
+    content:"";
     width:40px;
     height:40px;
+    background:#62306D;
+    border-radius:50%;
+    top:80px;
+    left:80px;
+    box-shadow:0 100px #62306D, 200px 0 #62306D, 200px 100px #62306D;
   }
-  .circle{
+  div::after{
     width:20px;
     height:20px;
-  }
-  .top{
-    top:80px;    
-  }
-  .bottom{
-    top:180px
-  }
-  .one{
-    left:80px;
-  }
-  .two{
-    right:80px;
-  }
-  .circle{
     top:90px;
-    right:150px;
-  }
-  .three{
-    top:190px;
+    left:230px;
+    box-shadow:0 100px #62306D;
   }
 </style>
 
