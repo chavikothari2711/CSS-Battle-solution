@@ -247,3 +247,23 @@ body{
 </style>
 
 ```
+
+## [12 September](https://cssbattle.dev/play/97lYDZ08hstqexDs9HeT)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/538e6e68-2417-4239-9a68-2f54599a28bd)
+
+```html
+
+<p></p>
+<style>
+  body{
+    background:radial-gradient(circle,#9CCCDB 100px,#FEFAE0 50px)
+  }
+  p{
+    width:150px;
+    height:150px;
+    border:20px solid #FEFAE0;
+    margin:-28px 22px
+  }
+</style>
+
+```
