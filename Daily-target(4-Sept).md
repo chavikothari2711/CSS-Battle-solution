@@ -267,3 +267,26 @@ body{
 </style>
 
 ```
+
+## [13 September](https://cssbattle.dev/play/gK8G0EfMHBHjUEe8qHfr)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/6319526f-f38b-488b-87da-bb60dae1a347)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background:radial-gradient(circle at 140px 90px,#0C0C49 50px, transparent 0),
+              radial-gradient(circle at 260px 90px, #0C0C49 50px, transparent 0),
+              radial-gradient(circle at 140px 210px,#0C0C49 50px, transparent 0),
+              radial-gradient(circle at 260px 210px, #0C0C49 50px, #DA30D4 0)
+  }
+  div{
+    width:120px;
+    height:120px;
+    background:#DA30D4;
+    margin:90px auto
+  }
+</style>
+
+```
