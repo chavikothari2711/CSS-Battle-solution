@@ -193,3 +193,81 @@
 </style>
 
 ```
+
+## [07 Pyramid](https://cssbattle.dev/play/165)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/a57a906f-602b-47d4-bb45-f2c9d1bffe1e)
+
+```html
+
+<div></div>
+<p></p>
+<style>
+  body{
+    background:radial-gradient(circle at 200px 80px,#66284A 50px, transparent 0),
+              radial-gradient(circle at 100px 220px,#66284A 50px, transparent 0),
+              radial-gradient(circle at 300px 220px,#66284A 50px,#F0CD48 0)
+  }
+  div,p{
+    width:139px;
+    height: 100px;
+    background:#66284A;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    margin:105px auto
+  }
+  p{
+    position:absolute;
+    background:#F0CD48;
+    height:140px;
+    width:199px;
+    z-index:-1;
+    left:100px;
+    top:-25px;
+  }</style>
+
+```
+
+## [08 Flow](https://cssbattle.dev/play/166)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/b0464b0c-8884-4a0e-98ed-e0a6f44ffc50)
+
+```html
+
+<div></div>
+<style>
+  body{
+    background:radial-gradient(circle at 200px 170px,#FDFBF8 40px,#D86F45 0)
+  }
+  body::before,body::after,div::before{
+    content:"";
+    position:absolute;
+    width:30px;
+    height:30px;
+    background:#FDFBF8;
+    border-radius:20px
+  }
+  body::before{
+    height:200px;
+    top:-75px;
+    left:100px;
+    box-shadow:170px 0 #FDFBF8,30px 60px #D86F45,140px 60px #D86F45
+  }
+  body::after{
+    width:80px;
+    height:150px;
+    border-radius:40px;
+    top:-50px;
+    left:160px
+  }
+  div{
+    width:200px;
+    height:100px;
+    border-radius:0 0 100px 100px;
+    background:#FDFBF8;
+    margin:169.5px auto
+  }
+  div::before{
+    top:155px;
+    box-shadow:170px 0 #FDFBF8
+  }
+</style>
+
+```
