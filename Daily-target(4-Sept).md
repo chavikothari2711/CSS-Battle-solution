@@ -290,3 +290,37 @@ body{
 </style>
 
 ```
+
+## [14 September](https://cssbattle.dev/play/aQ8SxNueIjKJHGHOHhIU)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/1767f91f-5695-4e10-bdbf-c486f1c67edd)
+
+```html
+
+<div>
+  <p></p>
+</div>
+<style>
+  body{
+    background:#5E2948
+  }
+  div{
+    width:220px;
+    position:relative;
+    height:160px;
+    background:#E7A366;
+    margin:70px auto;
+    overflow:hidden
+  }
+  p{
+    width:700px;
+    height:570px;
+    border-radius:50%;
+    border:20px solid #5E2948;
+    position:absolute;
+    left:-260px;
+    top:74px;
+    box-shadow:0 -20px #E7A366,0 -40px #5E2948
+  }
+</style>
+
+```
