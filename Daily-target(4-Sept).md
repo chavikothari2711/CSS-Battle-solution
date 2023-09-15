@@ -324,3 +324,23 @@ body{
 </style>
 
 ```
+
+## [15 September](https://cssbattle.dev/play/o9x5ARQpbrFhiCAzsDK6)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/5eca4413-10be-4827-b099-dcc924b8272f)
+
+```html
+
+<div></div>
+<style>
+    body{
+      background:#DE9473;
+      margin:0
+    }
+  div{
+      width:200px;
+      height:150px;
+      background:linear-gradient(#A4281F,#DE9473)
+  }
+</style>
+
+```
