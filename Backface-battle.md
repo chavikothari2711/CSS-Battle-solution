@@ -129,38 +129,20 @@
 
 ```html
 
-<div class="one"></div>
-<div class="two"></div>
-<div class="three" ></div>
-<div class="four"></div>
-<div class="five"></div>
-
+<div></div>
 <style>
-  body{
-    background:#1A4341;
-    margin:0;
-  }
-  div {
-    width: 50px;
-    height: 200px;
-    background: #F3AC3C;
-    position:absolute;
-    border-radius: 25px 25px 0px 0px;
-  }
-  div:nth-child(2n){
-    top:0px;
-    background:#998235;
-    border-radius: 0px 0px 25px 25px;
-  }
-  div:nth-child(2n+1){
-    bottom:0px
-  }
-  .one{left:25px}
-  .two{left:100px}
-  .three{left:175px}
-  .four{left:250px}
-  .five{left:325px}
-</style>
+    body{
+      background:#1A4341
+    }
+    div{
+      width:50px;
+      height:250px;
+      background:#998235;
+      border-radius:30px;
+      position:absolute;
+      top:-50px;
+      left:100.2px;
+      box-shadow:150px 0 #998235,-75px 149.5px #F3AC3C,75px 149.5px #F3AC3C,225px 149.5px #F3AC3C}</style>
 
 ```
 
@@ -210,47 +192,18 @@
 
 ```html
 
-<div class="big-square"></div>
-<div class="square"></div>
-<div class="square one"></div>
-<div class="square-two"></div>
-<div class="square-two one"></div>
+<div></div>
 <style>
-  body{
-    margin:0;
-    background: #293462;
-  }
-  .big-square{
-    width:200px;
-    height:200px;
-    background:#FFF1C1;
-  }
-  .square{
-    position:absolute;
-    top:0px;
-    width:100px;
-    height:150px;
-    left:200px;
-    background:#FE5F55;
-  }
-  .square.one{
-    height:50px;
-    top:150px;
-    background:#A64942;
-  }
-  .square-two{
-    position:absolute;
-    bottom:0px;
-    width:150px;
-    height:100px;
-    left:0px;
-    background:#FE5F55;
-  }
-  .square-two.one{
-    width:50px;
-    left:150px;
-    background:#A64942;
-  }
+    body{
+      margin:0;
+      background:#293462
+    }
+    div{
+      width:200px;
+      height:200px;
+      background:#FFF1C1;
+      box-shadow:100px -50px #FE5F55, 100px 0 #A64942,-50px 100px #FE5F55,0 100px #A64942
+    }
 </style>
 
 ```
