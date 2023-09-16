@@ -344,3 +344,28 @@ body{
 </style>
 
 ```
+
+## [16 September]()
+
+```html
+
+<p><p a>
+<style>
+    body{
+        margin:0;
+        background:radial-gradient(circle at center,#EFEB99 100px,#8647E6 0)
+    }
+    p{
+        margin:0;
+        width:210px;
+        height:160px;
+        border:20px solid #8647E6;
+        position:fixed
+    }
+    [a]{
+        bottom:0;
+        right:0
+    }
+</style>
+
+```
