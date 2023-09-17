@@ -345,7 +345,8 @@ body{
 
 ```
 
-## [16 September]()
+## [16 September](https://cssbattle.dev/play/x3AMz335HuaGovK9Tg8i)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/0d5e771e-fc33-4e2e-b10e-29fc0f07222c)
 
 ```html
 
@@ -365,6 +366,40 @@ body{
     [a]{
         bottom:0;
         right:0
+    }
+</style>
+
+```
+
+## [17 September](https://cssbattle.dev/play/A8ByjRBQp6gHChFurPm6)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/104950ac-4934-4a9e-b122-9c039af9e890)
+
+```html
+
+<div></div><p></p>
+<style>
+    *{
+      background:#F5BE6C
+    }
+    div{
+        width:90;
+        height:136;
+        border-right:30px solid #B74838;
+        border-bottom:30px solid #B74838;
+        margin:74 56;
+        border-radius:0 0 66px;
+        -webkit-box-reflect:right 30px
+    }
+    p{
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        position:fixed;
+        top:44;
+        left:154;
+        background:#B74838;
+        color:#B74838;
+        box-shadow:-100px 150px,162px 150px,60px 0
     }
 </style>
 
