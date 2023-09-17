@@ -280,53 +280,36 @@
 
 ```html
 
-<div class="fox left"></div>
-<div class="fox right"></div>
+<p/><h1/><h2/>
 <style>
-  body{
-    background:#293462;
-    display: flex;
-    justify-content: center;
-    padding-top: 72px;
-  }
-  .fox {
-    background: #fe5f55;
-    width: 50px;
-    height: 140px;
-    position: relative;
-  }
-  .left {
-    border-top-right-radius: 40px;
-  }
-    .fox::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    top: 60px;
-    background: #293462;
-    left: 15px;
-  }
-  .fox::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 40px;
-    background: #293462;
-    bottom: 0;
-    border-top-right-radius: 50px;
-  }
-  .right::after {
-    border-top-right-radius: 0px;
-    border-top-left-radius: 50px;
-  }
-  .right {
-    border-top-left-radius: 40px;
-  }
-  .right::before {
-    left: 5px;
-  }
+    *{
+        background:#293462
+    }
+    p,h2{
+        width:50;
+        height:140;
+        -webkit-box-reflect:right;
+        border-radius:0 40px 0 0
+    }
+    p{
+        position:relative;
+        background:#fe5f55;
+        top:72;
+        left:142
+    }
+    h2{
+        position:absolute;
+        top:160;
+        left:150
+    }
+    h1{
+        position:absolute;
+        width:30;
+        height:30;
+        border-radius:50%;
+        top:119;
+        left:165;
+        box-shadow:40px 0 #293462
+    }
 </style>
-
 ```
