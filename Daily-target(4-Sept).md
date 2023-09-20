@@ -404,3 +404,90 @@ body{
 </style>
 
 ```
+
+## [18 September](https://cssbattle.dev/play/x0L7nQMy9Cmd959zZbEW)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/62ce00ac-4523-4b1f-937d-6e36a4dd779d)
+
+```html
+
+<p><div>
+<style>
+    body{
+        background:#9076D8;
+        margin:0;
+    }
+    p{
+        width:100%;
+        height:100px;
+        background:linear-gradient(to right,#802471 10%,#4F0843);
+        margin:100px 0;
+    }div{
+        width:100px;
+        height:100px;
+        background:#802471;
+        position:absolute;
+        top:0px;
+        box-shadow:300px 200px #4F0843
+    }
+
+```
+
+## [19 September](https://cssbattle.dev/play/HEKXB9imd5fM8LjO7MUM)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/57dc0239-d135-4cd6-8a87-b83db480ef89)
+
+```html
+
+<div></div><p>
+<style>
+body{
+    background:#ED6A9D
+}  
+div{
+  width:100px;
+  height:150px;
+  background:#050044;
+  position:absolute;
+  top:75px;
+  left:89.5px;
+  border-radius:50px 25px 25px 50px;
+  -webkit-box-reflect:right 20px
+}
+  p{
+  width:30px;
+  height:20px;
+  background:#050044;
+  position:absolute;
+  top:124px;
+  left:185px;
+  }
+</style>
+
+```
+
+## [20 September](https://cssbattle.dev/play/ZjYJbaWLcSbiaXJnAjhR)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/81e5a40c-7cd2-4cfc-89ae-ffe266a64658)
+
+```html
+
+<p><a><style>
+    *{
+        background:#F1D272
+    }
+    p{
+        width:120;
+        height:120;
+        background:#EE7667;
+        border-radius:50%;
+        margin:122+49
+    }
+    a{
+        background:#EE7667;
+        width:20;
+        height:200;
+        rotate:25deg;
+        position:fixed;
+        top:-20;
+        left:154.5
+    }
+
+```
