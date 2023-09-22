@@ -491,3 +491,46 @@ div{
     }
 
 ```
+
+
+## [21 Spetember](https://cssbattle.dev/play/LFmA3gS1Td1dvPTs73lW)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/ca773d5b-fce5-4135-bcae-4757089884fb)
+
+```html
+
+<div></div>
+<style>
+  body{background:#DE9473}
+  div {
+    width: 101px;
+    height: 150px;
+    background: #A4281F;
+    border-radius: 50%;
+    margin:75 61;
+    box-shadow:80px 0 #A4281F, 160px 0 #A4281F
+  }
+</style>
+
+```
+
+## [22 september](https://cssbattle.dev/play/W5eZcF2D7LqXLz7qHugI)
+![image](https://github.com/chavikothari2711/CSS-Battle-solution/assets/61689704/adcb15fe-bb85-46fa-ba70-accf77c21622)
+
+```html
+
+<p></p>
+<style>
+  body{
+    background:linear-gradient(#FFFFFF 40%,#000000 0, #000000 60%,#FFFFFF 0)
+  }
+  p{
+    width:60px;
+    height:200px;
+    position:absolute;
+    background:#000000;
+    bottom:-40;
+    left:170px;
+  }
+</style>
+
+```
